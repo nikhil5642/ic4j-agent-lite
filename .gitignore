@@ -5,3 +5,5 @@
 /bin/
 /build-export.gradle
 /gradle.properties
+.idea
+local.properties
