@@ -9,6 +9,7 @@
 plugins {
     id 'java'
     id 'eclipse'
+	id "maven-publish"
 }
 
 
@@ -19,6 +20,19 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+			artifactId = 'ic4j-candid-lite'
+		}
+	}
+
+	repositories {
+		mavenLocal()
+	}
 }
 
 jar {
