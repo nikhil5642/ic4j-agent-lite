@@ -1,4 +1,4 @@
-# dfinity-candid-lite
+# dfinity-agent-lite
 This is the lighter version of the [ic4j-agent](https://github.com/ic4j/ic4j-agent)
 
 From ic4j-agent version [0.7.4](https://repo1.maven.org/maven2/org/ic4j/ic4j-agent/0.7.4/), mobile users can now start building Android applications on top of Internet Computer (ICP) using the Java SDK. The libraries are optimized for Android performance, enabling direct communication with canisters using ic4j-candid.
